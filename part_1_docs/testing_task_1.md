@@ -31,7 +31,7 @@ class CardGame:
   # a function in python is defined with "def"
   if card1.value > card2.value:
     return card
-    # it should be return card1
+    # it should be return card1.value
   else:
     return card2
   
@@ -45,4 +45,5 @@ def cards_total(self, cards):
     total += card.value
     return "You have a total of" + total
   #  string interpolation starts with f" You have a total of + total" and variable should be inclosed in curly brackets {total} so the correct format should be return f"You have a total of {total}"
+  #  return needs to be outside the loop
 ```
